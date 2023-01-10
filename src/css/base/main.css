@@ -7,7 +7,27 @@
 a{
     text-decoration: none;
 }
+
 body{
     margin-top: 150px;
     font-family: 'Inter',sans-serif;
+}
+
+.intro{
+    position: relative;
+    padding-bottom: 100;
+}
+
+.text__intro{
+    position: absolute;
+    color: var(--blanc-cassé);
+    font-family: 'Lora', serif;
+    margin-inline: 20px;
+    font-size: var(--sub--heading-1);
+    color: var(--blanc-cassé);
+    top: -15px;
+}
+
+.paragraphe--text-intro{
+    margin-bottom: 15px;
 }
