@@ -258,7 +258,7 @@ body{
 
 .description__oeuvre{
     padding: 25px;
-    margin-bottom: -20px;
+    margin-bottom: -25px;
     text-align: center;
     font-size: x-large;
 }
@@ -294,4 +294,20 @@ body{
     width: 330px;
     height: 590px;
     margin-inline: 15px;
+}
+
+.titre__page-oeuvre-easter{
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: medium;
+    margin-top: 15px;
+    margin-inline: 15px;
+}
+
+.redirection__page-artiste{
+    color: var(--couleur-text);
+    font-size: small;
+    font-weight: 500;
+    margin-inline: 35px;
+    margin-top: 10px;
 }
