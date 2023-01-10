@@ -1,0 +1,23 @@
+header{
+    background-color: var(--bleu-pastel);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+.header__icone--fr{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    left: 5%;
+    right: 85%;
+    top: 17%;
+    bottom: 64.67%;
+}
+.header__nom--site{
+    font-family: 'Damion', cursive;
+    font-weight: normal;
+    color: var(couleur-text);
+    text-align: center;
+}
