@@ -28,7 +28,7 @@ footer{
 .footer__reseaux{
     display: flex;
     justify-content: space-between;
-    margin-inline: 80px;
+    margin-inline: 85px;
     padding: 60px;
     top: 10px;
 }
