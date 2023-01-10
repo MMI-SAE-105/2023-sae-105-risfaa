@@ -1,0 +1,18 @@
+.motif_barre-barre--gauche,
+.motif_barre-barre--droite{
+    background-color: var(--bleu-egyptien);
+    height: 7px;
+    width: 275px;
+    margin: 9px;
+    margin-bottom: 9px;
+}
+
+.motif_barre-barre--gauche{
+    margin-left: -10px;
+    border-radius: 0 3px 3px 0;
+}
+
+.motif_barre-barre--droite{
+    margin-left: 70px;
+    border-radius: 3px 0 0 3px;
+}
