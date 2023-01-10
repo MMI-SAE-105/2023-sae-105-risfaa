@@ -1,0 +1,52 @@
+footer{
+    background-color: var(--bleu-egyptien);
+}
+
+.footer__nom-site{
+    font-family: 'Damion', cursive;
+    color: var(--blanc-cassé);
+    font-size: normal;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 500px;
+}
+
+.footer_lien--pages-annexes{
+    
+}
+
+.footer__pages-annexes{
+    font-family: 'Inter', sans-serif;
+    color: var(--blanc-cassé);
+    margin-bottom: 10px;
+}
+
+.footer__reseaux{
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 80px;
+    padding: 25px;
+}
+
+.footer__icone--reseaux-sociaux{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.footer_mailto{
+    color: var(--blanc-cassé);
+    font-family: 'Inter' sans-serif;
+    position: relative;
+    left: 104px;
+    bottom: 10px;
+}
+
+.footer__copyright{
+    color: var(--blanc-cassé);
+    font-family: 'Inter', sans-serif;
+    font-size: x-small;
+    text-align: center;
+}

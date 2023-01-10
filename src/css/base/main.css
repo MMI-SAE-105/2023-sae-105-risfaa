@@ -1,0 +1,11 @@
+*{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+body{
+    margin-top: 150px;
+    font-family: 'Inter',sans-serif;
+}
