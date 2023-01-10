@@ -1,48 +1,40 @@
 <!DOCTYPE html>
+<html lang="fr" x-data="{menuIsOpen: false}" :class="{noscroll:menuIsOpen,}"></html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daay'o</title>
+    <script defer src="https://unpkg.com/alpinejs"></script>
     <link rel="stylesheet" href="../src/css/style.css">
+    
 </head>
 <body>
 
     <header>
 
+        <button aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen"
+        class="header__icone--menu-burger">
+        <img src="../public/asset/icone/icone_menu_burger.svg" alt="menu">
+        </button>
+        <nav
+        id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms class="menu">
+
+        <ul>
+            <li><a class="menu__list" href="">Sergueï paradjanov</a></li>
+            <li><a class="menu__list" href="">Leonid Sejka</a></li>
+            <li><a class="menu__list" href="">Robert Rauschenberg</a></li>
+            <li><a class="menu__list" href="">Joseph Beuys</a></li>
+            <li><a class="menu__list" href="./billeterie.html"> Billetterie</a></li>
+        </ul>
+        </nav>
+
         <a href="../en/home_page.html">
             <img class="header__icone--fr" src="../public/asset/icone/icone_drapeau_france.svg" alt="icone langue fr">
         </a>
 
-        <img class="header__icone--menu-burger" src="../public/asset/icone/icone_menu_burger.svg" alt="icone menu burger">
-
         <h1 class="header__nom--site">Daay'o</h1>
-
-        <!-- <nav class="menu">
-            <ul>
-                <li class="menu__list">
-                    <a href="">Sergueï Paradjanov</a>
-                </li>
-
-                <li class="menu__list">
-                    <a href="">Leonid Sejka</a>
-                </li>
-
-                <li class="menu__list">
-                    <a href="">Robert Rauschenberg</a>
-                </li>
-
-                <li class="menu__list">
-                    <a href="">Joseph Beuys</a>
-                </li>
-
-                <li class="menu__list">
-                    <a href="">Billeterie</a>
-                </li>
-
-            </ul>
-        </nav> -->
 
     </header>
 

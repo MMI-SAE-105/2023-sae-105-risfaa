@@ -93,3 +93,10 @@ body{
     margin-top: 5px;
 }
 
+.menu__text{
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: var(--body-3);
+    font-weight: normal;
+}
+

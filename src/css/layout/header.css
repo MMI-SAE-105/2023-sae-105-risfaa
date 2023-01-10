@@ -4,7 +4,7 @@ header{
     top: 0;
     left: 0;
     right: 0;
-    z-index: 1;
+    z-index: 2;
 }
 
 .header__icone--fr{
@@ -16,7 +16,7 @@ header{
 }
 
 .header__nom--site{
-    font-family: 'Damion', cursive;
+    font-family: 'Damion';
     font-weight: normal;
     color: var(--couleur-text);
     text-align: center;
@@ -29,4 +29,6 @@ header{
     right: 35px;
     position: absolute;
     top: 25px;
+    background-color: var(--bleu-pastel);
+    border: none;
 }

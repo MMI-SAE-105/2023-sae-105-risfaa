@@ -1,0 +1,22 @@
+.menu{
+    position: fixed;
+    text-align: center;
+    background-color: white;
+    left: 0;
+    right: 0;
+    padding: 1px;
+    top: 94px;
+}
+
+.menu__list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 20px;
+    color: var(--bleu-egyptien);
+    list-style: none;
+    font-family:'Inter', sans-serif;
+    font-size: 115%;
+    margin-bottom: 7px;
+}
