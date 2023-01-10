@@ -151,3 +151,36 @@ body{
     padding-top: 10px;
 }
 
+.titre__page-a-propos{
+    text-align: center;
+    margin-top: -25px;
+    font-size: xx-large;
+}
+
+.text__page-a-propos{
+    color: var(--couleur-text);
+    margin-inline: 15px;
+    margin-top: 15px;
+    font-weight: 500;
+}
+
+.titre__sculpture_mars{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 500;
+    padding-top: 5px;
+}
+
+.image__sculpture_mars{
+    width: 330px;
+    height: 525px;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.block__article{
+    box-shadow: black 1px 2px 5px;
+    padding-bottom: 25px;
+    margin: 15px;
+    margin-top: 35px;
+}
