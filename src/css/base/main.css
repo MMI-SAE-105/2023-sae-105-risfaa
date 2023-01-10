@@ -31,3 +31,33 @@ body{
 .paragraphe--text-intro{
     margin-bottom: 15px;
 }
+
+article{
+    box-shadow: black 1px 2px 5px;
+    padding-bottom: 25px;
+    margin: 10px;
+    margin-bottom: 100px;
+}
+
+.description__artiste{
+    padding-bottom: 10px;
+}
+
+.description__artiste--titre{
+    font-family: 'Lora', serif;
+    color: var(--bleu-egyptien);
+    font-weight: 400;
+    margin-inline: 15px;
+    margin-bottom: 15px;
+    font-size: var(--heading-3);
+    margin-top: 10px;
+}
+
+.courte__description--article{
+    font-family: 'Inter',sans-serif;
+    font-weight: 400;
+    font-size: var(--body-1);
+    color: var(--couleur-text);
+    padding: 5px;
+}
+
