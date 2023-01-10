@@ -18,6 +18,8 @@ footer{
     color: var(--blanc-cassé);
     margin-top: 45px;
     margin-bottom: -10px;
+    font-weight: 500;
+    font-size: large;
 }
 .footer__pages-annexes a{
     color: var(--blanc-cassé);
@@ -43,6 +45,7 @@ footer{
     font-family: 'Inter' sans-serif;
     position: relative;
     bottom: 10px;
+    font-size: medium;
 }
 
 .footer__copyright{
