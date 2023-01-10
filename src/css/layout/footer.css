@@ -12,14 +12,13 @@ footer{
     margin-top: 500px;
 }
 
-.footer_lien--pages-annexes{}
-
-
 .footer__pages-annexes{
     font-family: 'Inter', sans-serif;
     color: var(--blanc-cassé);
-    margin-bottom: 10px;
-    padding-left: -20px;
+    margin-top: 25px;
+}
+.footer__pages-annexes a{
+    color: var(--blanc-cassé);
 }
 
 .footer__reseaux{
@@ -45,4 +44,5 @@ footer{
     color: var(--blanc-cassé);
     font-family: 'Inter', sans-serif;
     font-size: x-small;
+
 }
