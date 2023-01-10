@@ -4,19 +4,20 @@ footer{
 }
 
 .footer__nom-site{
-    font-family: 'Damion', cursive;
+    font-family: 'Damion';
     color: var(--blanc-cassé);
     font-size: normal;
     font-weight: 400;
     text-align: center;
     position: relative;
-    top: 10px;
+    top: 15px;
 }
 
 .footer__pages-annexes{
     font-family: 'Inter', sans-serif;
     color: var(--blanc-cassé);
-    margin-top: 30px;
+    margin-top: 45px;
+    margin-bottom: -10px;
 }
 .footer__pages-annexes a{
     color: var(--blanc-cassé);
@@ -25,8 +26,9 @@ footer{
 .footer__reseaux{
     display: flex;
     justify-content: space-between;
-    margin-inline: 80px;
-    padding: 40px;
+    margin-inline: 75px;
+    padding: 50px;
+    top: 10px;
 }
 
 .footer__icone--reseaux-sociaux{
@@ -40,7 +42,7 @@ footer{
     color: var(--blanc-cassé);
     font-family: 'Inter' sans-serif;
     position: relative;
-    bottom: 5px;
+    bottom: 10px;
 }
 
 .footer__copyright{
@@ -49,5 +51,5 @@ footer{
     font-size: x-small;
     position: relative;
     bottom: 10px;
-    margin-top: 25px;
+    margin-top: 30px;
 }
