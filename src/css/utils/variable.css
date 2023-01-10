@@ -1,0 +1,19 @@
+:root{ 
+/* Color styles */
+--bleu-pastel: #77B5F5;
+--bleu-egyptien: #1E366D;
+--bleu-roi: #4169E1;
+--couleur-text: #1C1514;
+--blanc-cassé: #FAFAFA;
+
+/* Text-size styles */
+--heading-1: 30px;
+--heading-2: 30px;
+--heading-3: 24px;
+--sub--heading-1: 24px;
+--sub--heading-2: 24px;
+--body: 14px;
+--body-2: 26px;
+--body-3: 20px;
+--logo: 40px;
+}
