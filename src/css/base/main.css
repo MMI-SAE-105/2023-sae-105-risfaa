@@ -14,6 +14,12 @@ h2{
     font-weight: 400;
 }
 
+h3{
+    color: var(--bleu-egyptien);
+    font-family: 'Lora', serif;
+    font-weight: 500;
+}
+
 body{
     margin-top: 150px;
     font-family: 'Inter',sans-serif;
@@ -182,7 +188,7 @@ body{
     box-shadow: black 1px 2px 5px;
     padding-bottom: 25px;
     margin: 15px;
-    margin-top: 35px;
+    margin-top: 45px;
 }
 
 .form__title{
@@ -214,4 +220,78 @@ body{
     padding: 5px;
     width: 80%;
     margin-top: 4px;
+}
+
+.titre__article--serguei{
+    text-align: center;
+    margin-top: 10px;
+    margin-inline: 35px;
+}
+
+.titre__page-article-serguei{
+    text-align: center;
+    margin-top: -10px;
+    font-size: xx-large;
+    padding-top: 10px;
+}
+
+.text__page-article-serguei{
+    color: var(--couleur-text);
+    margin-inline: 15px;
+    margin-top: 15px;
+    font-weight: 500;
+}
+
+.image__vgik-russe{
+    height: 220px;
+    width: 340px;
+    margin-inline: 10px;
+    margin-top: 15px;
+}
+
+.affiche__film-sayat-nova{
+    height: 400px;
+    width: 250px;
+    margin-inline: 55px;
+    margin-top: 15px;
+}
+
+.description__oeuvre{
+    padding: 25px;
+    margin-bottom: -20px;
+    text-align: center;
+    font-size: x-large;
+}
+
+.description__oeuvre-date{
+    margin-top: 5px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: x-large;
+}
+
+.redirection__page-oeuvre{
+    color: var(--couleur-text);
+    font-size: small;
+    font-weight: 500;
+    margin-inline: 35px;
+    margin-top: -25px;
+}
+
+.image__oeuvre-easter{
+    width: 330px;
+    height: 360px;
+    margin-inline: 15px;
+}
+
+.image__oeuvre-pieta{
+    width: 330px;
+    height: 360px;
+    margin-inline: 15px;
+}
+
+.image__oeuvre-radko{
+    width: 330px;
+    height: 590px;
+    margin-inline: 15px;
 }
