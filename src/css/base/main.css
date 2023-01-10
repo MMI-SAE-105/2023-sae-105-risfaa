@@ -8,6 +8,12 @@ a{
     text-decoration: none;
 }
 
+h2{
+    color: var(--bleu-egyptien);
+    font-family: 'Lora', serif;
+    font-weight: 400;
+}
+
 body{
     margin-top: 150px;
     font-family: 'Inter',sans-serif;
@@ -98,5 +104,32 @@ body{
     font-family: 'Inter', sans-serif;
     font-size: var(--body-3);
     font-weight: normal;
+}
+
+.titre_page_billeterie{
+    text-align: center;
+}
+
+.icone_billet{
+    display: flex;
+    margin: auto;
+    width: 75px;
+    margin-top: 25px;
+}
+
+.tarifs_ticket{
+    border: var(--bleu-egyptien) solid 3px;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 16px;
+    margin-top: 25px;
+}
+
+.tarifs{
+    margin-bottom: 10px;
+}
+
+.tarifs__prix li{
+    margin-top: 10px;
 }
 
