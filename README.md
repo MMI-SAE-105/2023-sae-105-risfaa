@@ -25,3 +25,6 @@ https://daay-o.faris-halepovic.fr/reports/billeterie.html
 
 # rapport page artiste : 
 https://daay-o.faris-halepovic.fr/reports/serguei_paradjanov.html
+
+# rapport page oeuvre : 
+https://daay-o.faris-halepovic.fr/reports/serguei_oeuvre_radko.html

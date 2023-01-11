@@ -6,8 +6,8 @@
     path = "" #la racine du site
 
     [[plugins.inputs.audits]]
-        output_path="reports/contact.html"
-        path = "/fr/contact.html" #la racine du site
+    output_path="reports/contact.html"
+    path = "/fr/contact.html" #la racine du site
 
     [[plugins.inputs.audits]]
     output_path="reports/a_propos.html"
@@ -20,3 +20,7 @@
     [[plugins.inputs.audits]]
     output_path="reports/serguei_paradjanov.html"
     path = "/fr/serguei_paradjanov.html" #la racine du site
+
+    [[plugins.inputs.audits]]
+    output_path="reports/serguei_oeuvre_radko.html"
+    path = "/fr/serguei_oeuvre_radko.html" #la racine du site
