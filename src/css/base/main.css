@@ -424,3 +424,55 @@ body{
     height: 360px;
     margin-inline: 65px;
 }
+
+.frise__gauche{
+    box-shadow: black 1px 2px 5px;
+    padding-bottom: 25px;
+    margin: 10px;
+    margin-top: 25px;
+    width: 80%;
+    margin-left: 20px;
+}
+
+.frise__droite{
+    box-shadow: black 1px 2px 5px;
+    padding-bottom: 25px;
+    margin: 10px;
+    margin-top: 25px;
+    width: 80%;
+    margin-left: 60px;
+}
+
+.image__frise-gauche-robert{
+    margin-inline: 13px;
+    margin-top: 10px;
+    height: 285px;
+    width: 285px;
+}
+
+.image__frise-gauche-joseph{
+    margin-inline: 13px;
+    margin-top: 10px;
+    height: 405px;
+    width: 285px;
+}
+
+.image__frise-droite-serguei{
+    margin-inline: 13px;
+    margin-top: 10px;
+    height: 405px;
+    width: 285px;
+}
+
+.image__frise-droite-leonid{
+    margin-inline: 13px;
+    margin-top: 10px;
+    height: 375px;
+    width: 285px;
+}
+
+.titre__frise{
+    color: var(--bleu-egyptien);
+    text-align: center;
+    margin-top: 5px;
+}
