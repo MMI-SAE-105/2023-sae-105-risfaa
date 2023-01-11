@@ -259,7 +259,7 @@ body{
 
 .description__oeuvre{
     padding: 25px;
-    margin-bottom: -25px;
+    margin-bottom: -20px;
     text-align: center;
     font-size: x-large;
 }
@@ -341,6 +341,45 @@ body{
 }
 
 .image__oeuvre-hearts-revolutionaries{
+    width: 230px;
+    height: 160px;
+    margin-inline: 65px;
+}
+
+.titre__article--leonid{
+    text-align: center;
+    margin-top: 10px;
+    margin-inline: 35px;
+    font-size: xx-large;
+}
+
+.titre__page-article-leonid{
+    text-align: center;
+    margin-top: -10px;
+    font-size: xx-large;
+    padding-top: 10px;
+}
+
+.text__page-article-leonid{
+    color: var(--couleur-text);
+    margin-inline: 15px;
+    margin-top: 15px;
+    font-weight: 500;
+}
+
+.image__oeuvre-terasa-tigra{
+    width: 230px;
+    height: 160px;
+    margin-inline: 65px;
+}
+
+.image__oeuvre-odaja-omega{
+    width: 230px;
+    height: 160px;
+    margin-inline: 65px;
+}
+
+.image__oeuvre-kroz-prozor{
     width: 230px;
     height: 160px;
     margin-inline: 65px;
