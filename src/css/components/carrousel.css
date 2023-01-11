@@ -16,14 +16,14 @@
     width: 60%;
     display: flex;
     justify-content: center;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
     margin-inline: 5%;
     background-color: var(--bleu-pastel);
     border-radius: 5%;
     border: 2px solid var(--bleu-pastel);
     flex: none;
     scroll-snap-align:center;
-    margin-top: 15px;
+    margin-top: 5px;
       /* largeur du parent pour chaque enfant */
       /* permet de garder toute la largeur du parent */
     }
