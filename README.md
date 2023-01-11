@@ -11,5 +11,8 @@ La structure de votre projet doit respecter scrupuleusement le modèle fourni da
 ## Contraintes :
 [contraites d'intégration HTML / CSS / Alpine](https://moodle.univ-fcomte.fr/mod/page/view.php?id=645799)
 
-# rapport lighthouse : 
+# rapport page accueil : 
 https://daay-o.faris-halepovic.fr/reports/accueil.html
+
+# rapport page contact :
+https://daay-o.faris-halepovic.fr/reports/contact.html
