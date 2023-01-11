@@ -22,3 +22,6 @@ https://daay-o.faris-halepovic.fr/reports/a_propos.html
 
 # rapport page billeterie : 
 https://daay-o.faris-halepovic.fr/reports/billeterie.html
+
+# rapport page artiste : 
+https://daay-o.faris-halepovic.fr/reports/serguei_paradjanov.html

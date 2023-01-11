@@ -16,3 +16,7 @@
     [[plugins.inputs.audits]]
     output_path="reports/billeterie.html"
     path = "/fr/billeterie.html" #la racine du site
+
+    [[plugins.inputs.audits]]
+    output_path="reports/serguei_paradjanov.html"
+    path = "/fr/serguei_paradjanov.html" #la racine du site
