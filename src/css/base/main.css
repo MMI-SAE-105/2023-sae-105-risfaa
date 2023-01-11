@@ -481,3 +481,12 @@ body{
     text-align: center;
     margin-top: 25px;
 }
+
+.bouton__frise{
+    color: var(--couleur-text);
+    font-size: large;
+    width: 70%;
+    display: flex;
+    margin: auto;
+    padding: 10px;
+}

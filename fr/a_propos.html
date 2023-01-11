@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="../src/css/style.css">
     
 </head>
-<body>
+<body x-data="{friseOpen: false}">
 
     <header>
 
@@ -63,7 +63,11 @@
 
     </section>
 
-    <section class="frise">
+    <button class="bouton__frise" @click="friseOpen = ! friseOpen">
+        <p>Cliquez ici pour découvrir la frise chrnonologique</p>
+    </button>
+
+    <section x-show="friseOpen" class="frise">
 
         <div class="motif_barre-barre--gauche"></div>
 
