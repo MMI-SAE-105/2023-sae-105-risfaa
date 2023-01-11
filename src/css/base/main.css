@@ -502,7 +502,7 @@ body{
 
 .titre__page-404{
     text-align: center;
-    font-size: xx-large;
+    font-size: x-large;
 }
 
 .sous__titre-page-404{
@@ -526,4 +526,13 @@ body{
 
 .image__erreur-404{
     margin-inline: 25px;
+}
+
+.titre__site-page-404{
+    font-family: 'Damion';
+    font-weight: 400;
+    color: var(--couleur-text);
+    text-align: center;
+    margin-top: 35px;
+    font-size: xx-large;
 }
