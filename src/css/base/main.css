@@ -226,6 +226,7 @@ body{
     text-align: center;
     margin-top: 10px;
     margin-inline: 35px;
+    font-size: xx-large;
 }
 
 .titre__page-article-serguei{
@@ -310,4 +311,37 @@ body{
     font-weight: 500;
     margin-inline: 35px;
     margin-top: 10px;
+}
+
+.titre__article--joseph{
+    text-align: center;
+    margin-top: 10px;
+    margin-inline: 35px;
+    font-size: xx-large;
+}
+
+.titre__page-article-joseph{
+    text-align: center;
+    margin-top: -10px;
+    font-size: xx-large;
+    padding-top: 10px;
+}
+
+.text__page-article-joseph{
+    color: var(--couleur-text);
+    margin-inline: 15px;
+    margin-top: 15px;
+    font-weight: 500;
+}
+
+.image__oeuvre-bug-der-argo{
+    width: 330px;
+    height: 590px;
+    margin-inline: 15px;
+}
+
+.image__oeuvre-hearts-revolutionaries{
+    width: 230px;
+    height: 160px;
+    margin-inline: 75px;
 }
