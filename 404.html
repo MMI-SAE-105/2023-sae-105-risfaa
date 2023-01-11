@@ -1,16 +1,27 @@
 <!DOCTYPE html>
-<script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+<html lang="fr" x-data="{menuIsOpen: false}" :class="{noscroll:menuIsOpen,}"></html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daay'o</title>
+    <script defer src="https://unpkg.com/alpinejs"></script>
+    <link rel="stylesheet" href="../src/css/style.css">
+    
+</head>
+
 <body>
 
-    <title>404 | Page non trouvée</title>
-    <h1>Page non trouvée</h1>
-    <h2>Error 404</h2>
-    <form action="https://google.com/" method="GET" 
-        x-data="{ q:'', }" 
-        x-on:submit="q = q + ' site:daay-o.faris-halepovic.fr'">
-        <label for="q">Que cherchez-vous ?</label>
-        <input type="text" id="q" name="q" x-model="q">
-        <button type="submit">Rechercher</button>
+     <title>404 | Page non trouvée</title>
+     <h1>Page non trouvée</h1>
+     <h2>Error 404</h2>
+     <form action="https://google.com/" method="GET" 
+     x-data="{ q:'', }" 
+     x-on:submit="q = q + ' site:daay-o.faris-halepovic.fr'">
+     <label for="q">Que cherchez-vous ?</label>
+     <input type="text" id="q" name="q" x-model="q">
+     <button type="submit">Rechercher</button>
     </form>
 
-</body>    
+</body>
