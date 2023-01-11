@@ -384,3 +384,42 @@ body{
     height: 160px;
     margin-inline: 65px;
 }
+
+.titre__article--robert{
+    text-align: center;
+    margin-top: 10px;
+    margin-inline: 35px;
+    font-size: xx-large;
+}
+
+.titre__page-article-robert{
+    text-align: center;
+    margin-top: -10px;
+    font-size: xx-large;
+    padding-top: 10px;
+}
+
+.text__page-article-robert{
+    color: var(--couleur-text);
+    margin-inline: 15px;
+    margin-top: 15px;
+    font-weight: 500;
+}
+
+.image__oeuvre-sue{
+    width: 230px;
+    height: 360px;
+    margin-inline: 65px;
+}
+
+.image__oeuvre-signs{
+    width: 230px;
+    height: 330px;
+    margin-inline: 65px;
+}
+
+.image__oeuvre-banner{
+    width: 230px;
+    height: 360px;
+    margin-inline: 65px;
+}
