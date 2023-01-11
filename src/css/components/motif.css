@@ -5,6 +5,7 @@
     width: 275px;
     margin: 9px;
     margin-bottom: 9px;
+    margin-top: 18px;
 }
 
 .motif_barre-barre--gauche{
@@ -13,6 +14,27 @@
 }
 
 .motif_barre-barre--droite{
-    margin-left: 70px;
-    border-radius: 1px 0 0 1px;
+    margin-left: 115px;
+    border-radius: 3px 0 0 3px;
 }
+
+.motif_barre-barre--droite-article,
+.motif_barre-barre--gauche-article{
+    background-color: var(--bleu-egyptien);
+    height: 7px;
+    width: 275px;
+    margin: 9px;
+    margin-bottom: 18px;
+    margin-top: 9px;
+}
+
+.motif_barre-barre--droite-article{
+    margin-left: 86px;
+    border-radius: 3px 0 0 3px;
+}
+
+.motif_barre-barre--gauche-article{
+    margin-left: -1px;
+    border-radius: 0 3px 3px 0;
+}
+
