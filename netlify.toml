@@ -5,6 +5,10 @@
     output_path="reports/accueil.html"
     path = "" #la racine du site
 
-[[plugins.inputs.audits]]
-    output_path="reports/contact.html"
-    path = "/fr/contact.html" #la racine du site
+    [[plugins.inputs.audits]]
+        output_path="reports/contact.html"
+        path = "/fr/contact.html" #la racine du site
+
+    [[plugins.inputs.audits]]
+    output_path="reports/a_propos.html"
+    path = "/fr/a_propos.html" #la racine du site
