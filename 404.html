@@ -13,15 +13,21 @@
 
 <body>
 
-     <title>404 | Page non trouvée</title>
-     <h1>Page non trouvée</h1>
-     <h2>Error 404</h2>
-     <form action="https://google.com/" method="GET" 
+     <title>404 Page non trouvée</title>
+
+     <h1 class="titre__page-404">Page non trouvée</h1>
+
+     <h2 class="sous__titre-page-404">Error 404</h2>
+
+     <form action="https://google.com/" method="GET"
+
      x-data="{ q:'', }" 
+
      x-on:submit="q = q + ' site:daay-o.faris-halepovic.fr'">
-     <label for="q">Que cherchez-vous ?</label>
-     <input type="text" id="q" name="q" x-model="q">
-     <button type="submit">Rechercher</button>
+
+     <a href="./daay-o.faris-halepovic.fr"><p class="boutton__retourner-sur-site">Retourner sur le site en cliquant ici</p>
+
+     <img class="image__erreur-404" src="/public/img/image_erreur_404.webp" alt="image erreur 404">    
     </form>
 
 </body>

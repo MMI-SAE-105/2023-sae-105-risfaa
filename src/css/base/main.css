@@ -499,3 +499,31 @@ body{
     margin-top: 35px;
     margin-inline: 25px;
 }
+
+.titre__page-404{
+    text-align: center;
+    font-size: xx-large;
+}
+
+.sous__titre-page-404{
+    text-align: center;
+}
+
+.text__page-404{
+    font-size: medium;
+}
+
+.boutton__page-404{
+    margin-top: 35px;
+    text-align: center;
+}
+
+.boutton__retourner-sur-site{
+    text-align: center;
+    margin-inline: 15px;
+    padding: 25px;
+}
+
+.image__erreur-404{
+    margin-inline: 25px;
+}
