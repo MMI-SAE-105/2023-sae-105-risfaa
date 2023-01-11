@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;/* change le box model */
+    }
+    img {
+      height: auto;
+    }
+.carrousel_parent-oeuvre{
+      display: flex;
+      width: 100%;
+      overflow-x: scroll;
+      scroll-behavior: smooth;
+      scroll-snap-type: x mandatory;
+    
+    }
+.carrousel_oeuvre{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    margin-inline: 5%;
+    background-color: var(--bleu-pastel);
+    border-radius: 5%;
+    border: 2px solid var(--bleu-pastel);
+    flex: none;
+    scroll-snap-align:center;
+    margin-top: 15px;
+      /* largeur du parent pour chaque enfant */
+      /* permet de garder toute la largeur du parent */
+    }
+.carrousel_ecran figure{
+      /* enlève les marges par défaut */
+      margin: 0;
+    }
+
+    .carrousel{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+      }
+      
+      .carrousel_boutton{
+        position: absolute;
+        top: 50%; /* centre verticalement */
+        transform: translateY(-50%); /* methode du point mort */
+        width: 2rem;
+        height: 2rem;
+        border-radius: 50%;
+        border: none;
+        display: grid;
+        place-content: center;
+      }
+      
+      .carrousel__button{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 50px;
+      }
+
+      .carrousel_boutton-precedent{
+        margin-top: 0%;
+        position: relative;
+        border: none;
+        background: none;
+        cursor: pointer;
+        width: 25px;
+        height: auto;
+      }
+      
+      .carrousel_boutton-suivant{
+        margin-top: 0%;
+        position: relative;
+        border: none;
+        background: none;
+        cursor: pointer;
+        width: 25px;
+        height: auto;
+      }
+
+.carrousel__image-oeuvre{
+    text-align: center;
+    color: var(--couleur-text);
+}
+
+.carrousel__image-rectangle{
+        margin-inline: 0%;
+        width: 85%;
+        height: 85%;
+        border-radius: 10px;
+        border: 2px solid var(--bleu-pastel);
+        margin-bottom: 0;
+        margin-left: 17px;
+        margin-top: 25px;
+}

@@ -178,6 +178,55 @@
 
         </section>
 
+        <div class="carrousel" x-data="{}">
+            
+
+            <div class="carrousel_parent-oeuvre" x-ref="parent">
+                
+                <div id="oeuvre-1" class="carrousel_oeuvre">
+                    <figure>
+                        <img class="carrousel__image-rectangle" src="../public/img/image_article_robert_rauschenberg/oeuvre_artiste_3_banner_stoned_moon_3.webp" alt="image oeuvre 1">
+                        <figcaption class="carrousel__image-oeuvre" >1970 - Banner Stoned Moon</figcaption>
+                    </figure>
+                </div>
+                <div id="oeuvre-2" class="carrousel_oeuvre">
+                    <figure>
+                        <img class="carrousel__image-rectangle" src="../public/img/image_article_robert_rauschenberg/oeuvre_artiste_3_signs_2.webp" alt="image oeuvre 2">
+                        <figcaption class="carrousel__image-oeuvre" >1969 - Signs</figcaption>
+                    </figure>
+                </div>
+                <div id="oeuvre-3" class="carrousel_oeuvre">
+                    <figure>
+                        <img class="carrousel__image-rectangle" src="../public/img/image_article_robert_rauschenberg/oeuvre_artiste_3_sue_1.webp" alt="image oeuvre 3">
+                        <figcaption class="carrousel__image-oeuvre" >1969 - Terasa tigra</figcaption>
+                    </figure>
+                </div>
+                <div id="oeuvre-4" class="carrousel_oeuvre">
+                    <figure>
+                        <img class="carrousel__image-rectangle" src="../public/img/image_article_joseph_beuys/oeuvre_artiste_4_bug_der_argo_1.webp" alt="image oeuvre 4">
+                        <figcaption class="carrousel__image-oeuvre" >1951-1952 - Bug der Argo</figcaption>
+                    </figure>
+                </div>
+                <div id="oeuvre-5" class="carrousel_oeuvre">
+                    <figure>
+                        <img class="carrousel__image-rectangle" src="../public/img/image_article_serguei_paradjanov/oeuvre_artiste_life_and_death_of_general_radko_3.webp" alt="image oeuvre 5">
+                        <figcaption class="carrousel__image-oeuvre" >1983 - Life and death of general Radko</figcaption>
+                    </figure>
+                </div>
+            </div>
+
+            <div class="carrousel__button">
+                <button @click="$refs.parent.scrollLeft -= $refs.parent.clientWidth/2" class="carrousel_boutton carrousel_boutton-suivant" aria-label="oeuvre précedant">
+                <img src="../public/asset/icone/icone_fleche_gauche.svg" alt="fleche gauche">
+                </button>
+        
+                <button @click="$refs.parent.scrollLeft += $refs.parent.clientWidth/2" class="carrousel_boutton carrousel_boutton-precedent" aria-label="oeuvre suivant"> 
+                <img src="../public/asset/icone/icone_fleche_droite.svg" alt="fleche droite">
+                </button>
+            </div>
+        </div>
+    </div>
+
 
     <footer>
 
