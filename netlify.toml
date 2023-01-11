@@ -12,3 +12,7 @@
     [[plugins.inputs.audits]]
     output_path="reports/a_propos.html"
     path = "/fr/a_propos.html" #la racine du site
+
+    [[plugins.inputs.audits]]
+    output_path="reports/billeterie.html"
+    path = "/fr/billeterie.html" #la racine du site

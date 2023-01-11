@@ -19,3 +19,6 @@ https://daay-o.faris-halepovic.fr/reports/contact.html
 
 # rapport page a propos : 
 https://daay-o.faris-halepovic.fr/reports/a_propos.html
+
+# rapport page billeterie : 
+https://daay-o.faris-halepovic.fr/reports/billeterie.html
