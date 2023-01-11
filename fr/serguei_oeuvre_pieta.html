@@ -16,7 +16,8 @@
 
         <button aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen"
         class="header__icone--menu-burger">
-        <img src="../public/asset/icone/icone_menu_burger.svg" alt="menu">
+        <img x-show="!menuIsOpen" x-transition.scale.80 src="../public/asset/icone/icone_menu_burger.svg" alt="menu">
+        <img class="header__icone--menu-croix" x-show="menuIsOpen" x-transition.scale.80 src="../public/asset/icone/icone_menu_x.svg" alt="menu croix">
         </button>
         <nav
         id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms class="menu">
@@ -50,7 +51,7 @@
         <div class="motif_barre-barre--droite-article"></div>
         <img class="image__oeuvre-pieta" src="../public/img/image_article_serguei_paradjanov/oeuvre_artiste_1_pieta_2.webp" alt="image tableau pieta">
         <div class="motif_barre-barre--gauche-article"></div>
-        
+
         <a href="./serguei_paradjanov.html"><p class="redirection__page-artiste">cliquez ici pour revenir sur la page précédente</p></a>
 
     </section>

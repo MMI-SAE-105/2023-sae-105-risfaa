@@ -32,3 +32,13 @@ header{
     background-color: var(--bleu-pastel);
     border: none;
 }
+
+.header__icone--menu-croix{
+    height: 30px;
+    width: 30px;
+    right: 0px;
+    position: absolute;
+    top: 0px;
+    background-color: var(--bleu-pastel);
+    border: none;
+}

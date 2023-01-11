@@ -16,7 +16,8 @@
 
         <button aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen"
         class="header__icone--menu-burger">
-        <img src="../public/asset/icone/icone_menu_burger.svg" alt="menu">
+        <img x-show="!menuIsOpen" x-transition.scale.80 src="../public/asset/icone/icone_menu_burger.svg" alt="menu">
+        <img class="header__icone--menu-croix" x-show="menuIsOpen" x-transition.scale.80 src="../public/asset/icone/icone_menu_x.svg" alt="menu croix">
         </button>
         <nav
         id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms class="menu">
@@ -46,7 +47,7 @@
             Life and death of general Radko est un collage qu’a fait Sergueï Paradjanov en 1983, 
             ce collage est un mélange de technique, du bois, du verre, du metal et du papier on été utilisé pour réaliser cette oeuvre
         </p>
-        
+
         <div class="motif_barre-barre--droite-article"></div>
         <img class="image__oeuvre-radko" src="../public/img/image_article_serguei_paradjanov/oeuvre_artiste_life_and_death_of_general_radko_3.webp" alt="image tableau life and death of general radko">
         <div class="motif_barre-barre--gauche-article"></div>
